@@ -1,6 +1,6 @@
-// First C++ program 
+#include <iostream>
 
 int main() {
-  cout << "Hello, World!";
+  std::cout << "Hola, mundo!" << std::endl;
   return 0;
 }
