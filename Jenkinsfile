@@ -9,6 +9,7 @@ pipeline {
     }
     stage("Test") {
       steps {
+        //se escribe entre parentesis si se quiere crear un comando como ya vimos
         sh 'chmod +x test.sh'
         sh './test.sh' // test.sh no es ejecutable
       }
