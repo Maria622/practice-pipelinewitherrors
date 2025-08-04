@@ -9,7 +9,7 @@ pipeline {
     }
     stage("Test") {
       steps {
-        sh chmod +x 'test.sh'
+        sh 'chmod +x test.sh'
         sh './test.sh' // test.sh no es ejecutable
       }
     }
